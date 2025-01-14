@@ -10,6 +10,8 @@ Develop a comprehensive SaaS-based platform comprising a unified application for
 
 ### System Descriptions and Requirements
 
+![architecture-design-v1](architecture-design-v1.svg)
+
 #### Customer PWA
 **Description:** A Progressive Web App that allows customers to view menus, place orders, and track order status via their mobile devices.
 
