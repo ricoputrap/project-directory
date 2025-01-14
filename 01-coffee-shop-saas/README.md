@@ -1,18 +1,18 @@
-### Project Summary: Digitalizing Coffee Shop Operations with a Unified Platform
+# Project Summary: Digitalizing Coffee Shop Operations with a Unified Platform
 
-#### Current Situation and Opportunity
+## A. Current Situation and Opportunity
 A coffee shop owner with extensive industry experience seeks to modernize operations through digital solutions. The current manual system leads to inefficiencies in order processing, inventory management, and overall customer service.
 
-#### Proposed Solution
+## B. Proposed Solution
 Develop a comprehensive SaaS-based platform comprising a unified application for internal operations and a customer-facing PWA, complemented by an admin portal for the SaaS provider.
 
 ---
 
-### System Descriptions and Requirements
+## C. System Descriptions and Requirements
 
 ![architecture-design-v1](architecture-design-v1.svg)
 
-#### Customer PWA
+### C.1. Customer PWA
 **Description:** A Progressive Web App that allows customers to view menus, place orders, and track order status via their mobile devices.
 
 **Functional Requirements:**
@@ -25,7 +25,7 @@ Develop a comprehensive SaaS-based platform comprising a unified application for
 - Fast load times and secure data handling.
 - Compatibility across various devices and browsers.
 
-#### Unified Internal Application
+### C.2. Coffee Shop Portal
 **Description:** A single application supporting cashier, inventory manager, and shop owner roles through role-based access control.
 
 **Functional Requirements:**
@@ -38,7 +38,7 @@ Develop a comprehensive SaaS-based platform comprising a unified application for
 - Robust security and scalability.
 - High availability and performance.
 
-#### Admin Portal (SaaS Owner)
+### C.3. Admin Portal (SaaS Owner)
 **Description:** A portal to manage tenant accounts, subscriptions, and overall system performance.
 
 **Functional Requirements:**
@@ -53,7 +53,7 @@ Develop a comprehensive SaaS-based platform comprising a unified application for
 
 ---
 
-### Suggested Approach for Development
+## D. Suggested Approach for Development
 
 1. **Modular and Scalable Design**:
    - Focus on a modular architecture to simplify potential decoupling of unified systems as needs evolve.
